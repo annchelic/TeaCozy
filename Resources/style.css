@@ -3,8 +3,13 @@
   font-size: 22px;
   color: seashell;
   background-color: black;
+  text-align: center;
+  opacity: .9;
 }
 
+h2 {
+  font-size: 28px;
+}
 .header {
   display: flex;
   align-items: center;
@@ -31,6 +36,52 @@
   display: block;
   color: seashell;
   justify-content: flex-end;
-  float: left;
+  float: right;
   text-decoration: underline;
+}
+#mission {
+  display: flex;
+  align-items: center;
+  padding-top: 70px;
+  width: 1200px;
+  height: 700px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+}
+
+#mission .banner {
+  width: 100%;
+}
+
+#mission .banner h2 {
+  align-items: center;
+  font-size: 28px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+#mission .banner h4 {
+  align-items: center;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+#tea {
+  justify-content: center;
+  width: 1200px;
+}
+
+.gallery {
+  padding-left: 110px;
+  width: 1000px;
+  justify-content: center;
+}
+
+.flavor {
+  display: inline-block;
+  justify-content: center;
+}
+.flavor img {
+  justify-content: center;
+  height: 200px;
+  width: 300px;
 }
